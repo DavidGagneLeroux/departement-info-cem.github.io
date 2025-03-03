@@ -3,11 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Prof, DataService } from '../service/data.service';
 import { DomSanitizer } from '@angular/platform-browser';
 import {
-  MatCard,
-  MatCardHeader,
-  MatCardTitle,
-  MatCardSubtitle,
-  MatCardImage,
+  MatCardModule,
 } from '@angular/material/card';
 
 @Component({
@@ -16,11 +12,7 @@ import {
   styleUrls: ['./prof.component.scss'],
   standalone: true,
   imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardTitle,
-    MatCardSubtitle,
-    MatCardImage,
+    MatCardModule
   ],
 })
 export class ProfComponent {

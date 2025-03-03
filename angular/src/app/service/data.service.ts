@@ -73,6 +73,8 @@ export class Prof {
   courriel: any;
   lienVideo = '';
   bureau = '';
+  linkedin?: string
+  github?: string;
 }
 
 export class Question {
